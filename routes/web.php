@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::resource('tasks', 'TaskController');
+Route::resource('tasks-ajax','TaskAjaxController');
